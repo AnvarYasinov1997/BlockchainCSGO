@@ -227,7 +227,7 @@ ul {
 
 /* =-=-=-=-=-=-= home-section =-=-=-=-=-=-= */
 .home-section {
-    background: url("../images/lore.jpg")/*tpa=http://perfectweb.su/assets/images/slider/ipad.jpg*/ #333 center center;
+    background: url("../images/medusa.jpg")/*tpa=http://perfectweb.su/assets/images/slider/ipad.jpg*/ #333 center center;
     -webkit-background-size: cover;
     background-size: cover;
     position: relative;
@@ -633,9 +633,9 @@ contact-section
     -webkit-font-smoothing: antialiased;
     -webkit-user-select: none;
     align-items: flex-start;
-    background-color: rgb(243, 77, 101);
+    background-color: rgb(0, 128, 255);
     background-image: none;
-    border-bottom-color: rgb(243, 77, 101);
+    border-bottom-color: rgb(0, 128, 255);
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     border-bottom-style: solid;
@@ -645,13 +645,13 @@ contact-section
     border-image-slice: 100%;
     border-image-source: none;
     border-image-width: 1;
-    border-left-color: rgb(243, 77, 101);
+    border-left-color: rgb(0, 128, 255);
     border-left-style: solid;
     border-left-width: 1px;
-    border-right-color: rgb(243, 77, 101);
+    border-right-color: rgb(0, 128, 255);
     border-right-style: solid;
     border-right-width: 1px;
-    border-top-color: rgb(243, 77, 101);
+    border-top-color: rgb(0, 128, 255);
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     border-top-style: solid;
@@ -698,3 +698,14 @@ contact-section
     writing-mode: lr-tb;
     -webkit-writing-mode: horizontal-tb;
 }
+
+.case {
+    background-image: url('../images/case.png');
+    background-color: rgba(0,0,0,0);
+    background-repeat: no-repeat;
+    background-position-x: 35px;
+    background-position-y: 0px;
+    background-size: contain;
+
+}
+
