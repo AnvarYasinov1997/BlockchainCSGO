@@ -262,12 +262,11 @@ ul {
     height: 100%;
 }
 
-
-
 /* =-=-=-=-=-=-= Main Content =-=-=-=-=-=-= */
 .logo {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
+
 .home-title {
     margin-bottom: 50px;
 }
@@ -699,13 +698,23 @@ contact-section
     -webkit-writing-mode: horizontal-tb;
 }
 
-.case {
-    background-image: url('../images/case.png');
+.case_m4 {
+    background-image: url('../images/m4_case.png');
     background-color: rgba(0,0,0,0);
     background-repeat: no-repeat;
     background-position-x: 35px;
     background-position-y: 0px;
     background-size: contain;
+    text-align: center;
+}
 
+.case_karambit {
+    background-image: url('../images/karambit_case.png');
+    background-color: rgba(0,0,0,0);
+    background-repeat: no-repeat;
+    background-position-x: 35px;
+    background-position-y: 0px;
+    background-size: contain;
+    text-align: center;
 }
 
