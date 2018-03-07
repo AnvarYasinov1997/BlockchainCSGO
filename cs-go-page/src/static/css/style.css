@@ -698,23 +698,5 @@ contact-section
     -webkit-writing-mode: horizontal-tb;
 }
 
-.case_m4 {
-    background-image: url('../images/m4_case.png');
-    background-color: rgba(0,0,0,0);
-    background-repeat: no-repeat;
-    background-position-x: 35px;
-    background-position-y: 0px;
-    background-size: contain;
-    text-align: center;
-}
 
-.case_karambit {
-    background-image: url('../images/karambit_case.png');
-    background-color: rgba(0,0,0,0);
-    background-repeat: no-repeat;
-    background-position-x: 35px;
-    background-position-y: 0px;
-    background-size: contain;
-    text-align: center;
-}
 

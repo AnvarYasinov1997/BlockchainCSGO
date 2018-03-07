@@ -1,0 +1,141 @@
+/*Weapon*/
+
+.weapon_container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.case {
+    width: 237px;
+    height: 160px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.case:last-child {
+    margin-right: 0px;
+}
+
+.m4 {
+    background-image: url('../images/case/m4_case.png');
+}
+
+.karambit {
+    background-image: url('../images/case/karambit_case.png');
+}
+
+.ak47 {
+    background-image: url('../images/case/ak47_case.png');
+}
+
+.usp {
+    background-image: url('../images/case/usp_case_2.png');
+}
+
+.weapon {
+    display: block;
+    height: auto
+}
+
+.usp_max {
+    max-width: 256px;
+}
+
+
+/*Footer*/
+
+.footer_container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column {
+    width: 360px;
+    margin-right: auto;
+    float: left;
+}
+
+.column:last-child {
+    margin-right: 0px;
+}
+
+.footer_row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.footer {
+    background-color: #061634;
+    color:#6479a2;
+    padding-top: 90px;
+    padding-bottom: 190px;
+    height: 250px;
+}
+
+.footer_name {
+    font-size: 28px;
+    margin-bottom: 10px;
+    line-height: normal;
+    font-family: 'Merriweather', serif;
+}
+
+.footer_social {
+    color: #FFFFFF;
+}
+
+.footer_social_icons {
+    margin-top: 5px;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+.footer_social_icons a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 29px;
+}
+
+.footer_social_icons:last-child {
+    margin-right: 0px;
+}
+
+.footer_social_icons a:hover {
+    color: #6479a2;
+}
+
+.footer_button {
+    font-weight: 700;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    display: inline-block;
+    border-width: 2px;
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-radius: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 23px;
+    padding-right: 23px;
+    margin-bottom: 5px;
+}
+
+.footer_button:hover {
+    color: #061634;
+    background-color: #FFFFFF;
+}
+
+.bottom_title {
+    color: #FFFFFF;
+}
+
+.start_game:hover {
+    color: #6479a2;
+}
